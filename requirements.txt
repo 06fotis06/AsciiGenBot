@@ -1,0 +1,5 @@
+aiogram
+art
+colorama
+termcolor
+pillow
