@@ -17,9 +17,6 @@ async def handle_docs_photo(message):
 
     await message.photo[-1].download('test.jpg')
     os.system('python art.py')
-    f = open("ascii_image.txt")
-    fr = f.read()
-    await message.reply(fr)
     await message.reply_document(open('ascii_image_full.txt', 'rb'))
     
     
